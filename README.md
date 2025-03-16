@@ -5,8 +5,19 @@ Welcome to Wired and Tired's Engineering Documentation!
 We are a passionate team of innovators, pushing the boundaries of robotics and technology. Our projects focus on solving real-world problems with creative engineering and automation.
 
 
+About WRO 2025:
+The World Robot Olympiad (WRO) is an international robotics competition that fosters innovation, critical thinking, and problem-solving skills among youth. Each year, teams design and program robots to tackle real-world challenges, gaining hands-on STEM experience and preparing for future careers in technology and engineering. 
 
-Components List and Overview:
+The theme for WRO 2025 is "The Future of Robots," inviting teams to explore how robotics can address global challenges and enhance our lives. Participants will delve into areas such as reshaping future cities, expanding life across the universe, and integrating AI-enabled robots into various aspects of daily life. 
+
+The international finals for WRO 2025 are scheduled to be held in Singapore. 
+
+
+
+
+
+
+Components List of our autonomous robot and Overview:
 
 The BTS 7960 :
 
