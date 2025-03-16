@@ -130,4 +130,11 @@ An encoder geared motor is a motor with an integrated encoder and a gear system.
 
 
 
+Now, Let's see what we made with these equipments:
+
+Drumroll please we are thrilled to show our robot:
+
+(under Construction). W8 few days pls:)
+
+
 
