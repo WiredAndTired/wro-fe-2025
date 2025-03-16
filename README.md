@@ -35,7 +35,7 @@ The BNO085:
 The BNO085 is a small but powerful sensor that brings together a 3D accelerometer, gyroscope, and magnetometer in one device. It’s designed to measure motion, acceleration, and orientation with incredible accuracy, making it perfect for projects like navigation or stabilizing systems. The built-in sensor fusion algorithms help it deliver smooth, stable data without needing complex calculations, which makes it easier to work with. With its compact size, low power use, and easy integration, the BNO085 is a great choice for anyone needing precise motion tracking and orientation control in their designs.
 
 
-HiskyLens:
+HuskyLens:
 
 HuskyLens is an intelligent AI vision sensor designed to simplify image processing and object recognition tasks. It comes with built-in algorithms for face recognition, object tracking, line following, QR code scanning, color detection, and more. With its pre-trained AI models, users can easily implement complex vision-based functionalities without extensive programming knowledge. 
 
