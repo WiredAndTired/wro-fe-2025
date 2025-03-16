@@ -1,2 +1,3 @@
 Welcome to Wired and Tired's Engineering Documentation!
- We are a passionate team of innovators, pushing the boundaries of robotics and technology. Our projects focus on solving real-world problems with creative engineering and automation.
+ 
+We are a passionate team of innovators, pushing the boundaries of robotics and technology. Our projects focus on solving real-world problems with creative engineering and automation.
