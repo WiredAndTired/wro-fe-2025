@@ -25,15 +25,6 @@ The international finals for WRO 2025 are scheduled to be held in Singapore.
 
 Components List of our autonomous robot and Overview:
 
-The BTS 7960 :
-
-The BTS 7960 is a powerful motor driver that makes controlling DC motors smooth and efficient. It's designed to handle large motors, providing up to 43A per channel, making it perfect for high-performance projects. With a wide input voltage range, it works well in many different systems, offering flexibility and adaptability. The built-in protections for overcurrent, overtemperature, and short-circuit ensure that your motor and driver stay safe, even under tough conditions. Its efficient control reduces energy use while keeping things running smoothly, making it a dependable choice for anyone needing reliable motor control in demanding applications. Just because we are using a 27ga motor which will provide more torque and will use more current that's why TB6612 is not suitable.
-
-
-The BNO085:
-
-The BNO085 is a small but powerful sensor that brings together a 3D accelerometer, gyroscope, and magnetometer in one device. It’s designed to measure motion, acceleration, and orientation with incredible accuracy, making it perfect for projects like navigation or stabilizing systems. The built-in sensor fusion algorithms help it deliver smooth, stable data without needing complex calculations, which makes it easier to work with. With its compact size, low power use, and easy integration, the BNO085 is a great choice for anyone needing precise motion tracking and orientation control in their designs.
-
 
 HuskyLens:
 
@@ -42,34 +33,6 @@ HuskyLens is an intelligent AI vision sensor designed to simplify image processi
 The device features a touch screen for intuitive interaction, allowing users to quickly switch between modes and train the sensor by simply clicking and learning. HuskyLens supports multiple communication protocols like UART, I2C, and USB, making it compatible with microcontrollers such as Arduino, Raspberry Pi, and more. Its versatility and ease of use make it ideal for robotics, IoT projects, and STEM education.
 
 
-27GA motor:
-
-A 27GA motor is a small, high-performance DC motor commonly used in robotics, automation, and hobbyist projects. It belongs to the **27mm gear motor series**, where "GA" refers to the use of a gearbox for torque enhancement. These motors are compact, efficient, and often paired with planetary or spur gearboxes to provide precise torque and speed control.
-
-Key Features:
-1. **Compact Design**: Suitable for space-constrained applications.
-2. **Gearbox Options**: Gear ratios vary to provide different combinations of speed and torque.
-3. **Wide Voltage Range**: Operates typically between 3V and 12V, depending on the model.
-4. **High Torque**: Ideal for driving wheels, actuators, or mechanical systems in robots.
-5. **Durability**: Built with metal or reinforced plastic gearboxes for reliable operation.
-
-Applications:
--Robotics**: For driving wheels or arms in small robots.
-- RC Vehicles**: Used in cars, boats, and other remote-controlled devices.
-- DIY Projects**: Perfect for small mechanical systems like conveyor belts, grippers, or rotating platforms.
-
-The 27GA motor balances power and efficiency, making it a go-to choice for small and medium-scale motorized applications.
-
-
-
-ESP32:
-
-The ESP32 is a highly versatile microcontroller developed by Espressif Systems, featuring built-in Wi-Fi and Bluetooth for wireless connectivity. Powered by a dual-core Xtensa LX6 processor running at up to 240 MHz, it offers robust performance for IoT and embedded projects. It has multiple GPIO pins supporting protocols like I2C, SPI, UART, PWM, ADC, and DAC, allowing seamless integration with sensors, displays, and actuators.
-
-The ESP32 includes up to 520 KB SRAM, external flash storage support, and advanced features like touch sensors, a Hall effect sensor, and temperature monitoring. With low-power modes (deep sleep, light sleep), it’s ideal for battery-operated devices. Its applications range from IoT systems and robotics to smart home devices and industrial automation, making it a go-to choice for developers seeking reliable performance and connectivity.
-
-Why Choose ESP32?
-The ESP32 stands out due to its excellent balance of performance, connectivity, and affordability. With extensive libraries and community support, it’s a versatile and beginner-friendly platform for anyone looking to innovate in the fields of IoT, robotics, or embedded systems.
 
 
 
@@ -81,20 +44,12 @@ Rotary encoders are compact, durable, and available in various resolutions, meas
 
 
 
-OLED:
-
-A 0.96-inch OLED display is a small, low-power screen with a 128x64 pixel resolution, commonly used in embedded systems and IoT projects. It offers high contrast, vibrant colors, and wide viewing angles, making it ideal for compact devices. Typically interfaced via I2C or SPI with microcontrollers like Arduino or ESP32, it's used in wearables, robotics, and status indicators.
-
-
 MG995:
 
 The MG995 is a digital servo motor  known for its high torque and precision. It provides about 9-10 kg-cm of torque at 4.8V and operates at a speed of 0.20 seconds per 60°. It’s used in robotics, RC vehicles, and automation tasks, offering metal gears for durability. The servo is controlled via PWM signals for precise movement and position control. Two MG995 servos  can be used for simultaneous control of multiple robotic joints or mechanisms.
 
 
 
-Ultrasonic:
-
-The **DFRobot Ultrasonic Sensor** measures distances using ultrasonic waves. It has a range of 2 cm to 4 meters, with an accuracy of ±1 cm, and operates at 5V. It’s commonly used in robotics for obstacle avoidance and navigation. With **four sensors**, you can detect objects from different angles for better spatial awareness. It’s easy to integrate with microcontrollers like Arduino or ESP32.
 
 
 
@@ -119,14 +74,136 @@ Mini Boost Converter:
 A constant 5V converter is a power supply that provides a stable 5V output regardless of variations in the input voltage or load. It can either step down (buck converter) or step up (boost converter) the input voltage to maintain a consistent 5V output. These converters are commonly used in projects that require a reliable 5V power source, such as powering microcontrollers, sensors, or communication modules in electronics, robotics, and IoT applications. They are designed for high efficiency, ensuring minimal energy loss while maintaining a stable output voltage.
 
 
-LIPO:
+TB6612FNG
 
-A LiPo (Lithium Polymer) 11.1V battery is a rechargeable battery commonly used in robotics, drones, and other electronic projects. It typically consists of three cells (3S configuration), each providing 3.7V, which when connected in series gives a total voltage of 11.1V. LiPo batteries are known for their lightweight design, high energy density, and ability to deliver high discharge currents, making them ideal for applications requiring powerful, compact energy sources. They also have a relatively low self-discharge rate, but require careful handling and charging to ensure safety and longevity.
+The TB6612FNG is a dual motor driver IC that can control two DC motors with forward, reverse, brake, and stop functions. It uses an H-bridge design and is capable of delivering up to 1.2A continuous current per channel (3.2A peak). It operates over a wide voltage range (2.5V–13.5V) and supports PWM control for precise motor speed management.
+
+Main Features:
+
+Dual H-bridge motor driver
+
+1.2A continuous output current (3.2A peak)
+
+Separate motor and logic power supply pins
+
+Built-in thermal shutdown and overcurrent protection
+
+Compatible with microcontrollers like Arduino and Raspberry Pi
 
 
-Encoder Geared Motor:
 
-An encoder geared motor is a motor with an integrated encoder and a gear system. The encoder tracks the motor's position, speed, and direction, providing feedback to control systems, which helps in precise movement control. The gear system reduces the motor's speed while increasing its torque, making it ideal for applications needing high power at low speeds, such as robotics and automation. These motors are commonly used in tasks requiring accurate positioning, like robotic arms, wheeled robots, and conveyor systems. They combine the benefits of precise feedback and high torque in a compact design.
+
+MPU6050 + HMC5883L (Kalman Filter)
+
+The MPU6050 is a 6-axis IMU (3-axis gyroscope + 3-axis accelerometer) and the HMC5883L is a 3-axis magnetometer. Combined, they provide a 9-axis orientation solution. When processed using a Kalman filter, sensor fusion is achieved for accurate and stable angle, tilt, and heading detection.
+
+Main Features:
+
+9-DOF motion tracking (acceleration, rotation, magnetic heading)
+
+Kalman filter improves precision by reducing noise
+
+Ideal for robotics, navigation, and gesture-based interfaces
+
+I2C interface for easy integration
+
+Small form factor and low power consumption
+
+
+
+N20 Motor
+
+The N20 motor is a small, high-precision gear motor that provides a balance between torque and speed. It is widely used in robotics and compact automation projects due to its low weight and versatile voltage compatibility (3V–12V).
+
+Main Features:
+
+Micro DC gear motor with high torque
+
+Available in various gear ratios (e.g., 30:1, 50:1, 100:1)
+
+Quiet and efficient operation
+
+Suitable for tracked robots, actuators, and drive systems
+
+Durable metal gearbox
+
+
+
+TTGO
+
+The TTGO board is a series of development boards, typically built around the ESP32 microcontroller, featuring Wi-Fi and Bluetooth connectivity. Most models include additional features such as OLED displays, LoRa modules, or battery connectors, making them suitable for IoT applications.
+
+Main Features:
+
+Powered by ESP32 (dual-core, 240MHz, Wi-Fi + BLE)
+
+Built-in OLED screen (varies by model)
+
+Low-power consumption for IoT use
+
+Multiple GPIO pins and communication interfaces (I2C, SPI, UART)
+
+Supports Arduino IDE and MicroPython
+
+
+
+
+TTGO OLED
+
+A TTGO OLED module refers to the integrated display in TTGO boards, typically a 0.96" 128x64 pixel OLED using the SSD1306 driver over I2C. It is used to display real-time data, debugging messages, or graphical indicators in compact embedded systems.
+
+Main Features:
+
+0.96" 128x64 monochrome OLED
+
+I2C communication (SCL/SDA)
+
+Ultra-low power consumption
+
+Sharp, high-contrast visuals
+
+Easy integration with ESP32 boards
+
+
+
+
+MG90S
+
+The MG90S is a micro servo motor with metal gears, offering higher durability and torque than plastic-geared counterparts. It operates on 4.8V–6V and is ideal for lightweight robotics and pan-tilt mechanisms.
+
+Main Features:
+
+Metal gears for durability and strength
+
+1.8kg·cm torque at 4.8V
+
+Fast response and precise positioning
+
+180-degree rotation (PWM-controlled)
+
+Compact and lightweight
+
+
+
+
+URM09
+
+The URM09 is an ultrasonic distance sensor with UART/I2C interface, offering high-accuracy range detection. It measures distances by emitting ultrasonic pulses and calculating echo times.
+
+Main Features:
+
+Range: 2cm to 500cm with high accuracy
+
+I2C and UART interface options
+
+Built-in temperature compensation
+
+Ideal for obstacle detection and avoidance
+
+Compact and reliable design
+
+
+
 
 
 
