@@ -211,6 +211,9 @@ Now, Let's see what we made with these equipments:
 
 Drumroll please we are thrilled to show our robot:
 
+![WhatsApp Image 2025-07-03 at 21 41 27](https://github.com/user-attachments/assets/3360d9af-20a5-4117-b5b9-a5eead6a251a)
+
+
 (under Construction). W8 few days pls:)
 
 
