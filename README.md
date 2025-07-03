@@ -215,3 +215,7 @@ Formal Photo:
 
 ![WhatsApp Image 2025-07-03 at 21 41 14](https://github.com/user-attachments/assets/1febe9b8-db15-4f7f-99d9-bdaf99a60ea1)
 
+Equipments Specification:
+![Electronic Components Breakdown](https://github.com/user-attachments/assets/336301b2-dd44-4e25-a874-e8060a81f894)
+
+
